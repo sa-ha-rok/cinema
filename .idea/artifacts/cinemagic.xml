@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="cinemagic">
+    <output-path>$PROJECT_DIR$/out/artifacts/cinemagic</output-path>
+    <root id="root">
+      <element id="archive" name="cinemagic.jar">
+        <element id="module-output" name="cinemagic" />
+      </element>
+    </root>
+  </artifact>
+</component>

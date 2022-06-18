@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller2">
+   <children>
+      <TextField fx:id="t_hour" layoutX="89.0" layoutY="100.0" prefHeight="25.0" prefWidth="74.0" />
+      <TextField fx:id="t_name" layoutX="96.0" layoutY="61.0" prefHeight="25.0" prefWidth="209.0" text="session" />
+      <Button fx:id="b_ok" layoutX="126.0" layoutY="181.0" mnemonicParsing="false" text="Ok" />
+      <Button fx:id="b_cancel" layoutX="199.0" layoutY="181.0" mnemonicParsing="false" text="Cancel" />
+      <TextField fx:id="t_min" layoutX="246.0" layoutY="100.0" prefHeight="25.0" prefWidth="74.0" />
+      <TextField fx:id="t_time" layoutX="126.0" layoutY="136.0" />
+      <Label layoutX="35.0" layoutY="104.0" text="Година" />
+      <Label layoutX="177.0" layoutY="104.0" text="Хвилини" />
+      <Label layoutX="26.0" layoutY="65.0" text="Назва сесії" />
+      <Label layoutX="34.0" layoutY="140.0" text="Тривалість (хв)" />
+   </children>
+</Pane>
